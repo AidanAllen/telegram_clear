@@ -2,6 +2,7 @@
 # (敏感凭证/扫描数据/日志/session 一律不提交)
 *
 !.gitignore
+!.gitattributes
 !LICENSE
 !README.md
 !requirements.txt
