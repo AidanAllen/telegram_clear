@@ -1,0 +1,10 @@
+# Telegram 失效群自动清理 - pip 依赖
+#
+# 服务器(运行 auto_clean.py / login.py / doctor.py):
+telethon>=1.45.0
+#
+# 本地 Windows(ssh_util.py 远程管理):
+paramiko>=3.0
+#
+# 可选: 本地走 socks 代理登录时需要(login.py --proxy):
+# pysocks>=1.7

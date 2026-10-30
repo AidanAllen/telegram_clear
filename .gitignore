@@ -1,0 +1,13 @@
+# 白名单模式: 默认忽略一切, 只允许以下文件进仓库
+# (敏感凭证/扫描数据/日志/session 一律不提交)
+*
+!.gitignore
+!LICENSE
+!README.md
+!requirements.txt
+!setup.sh
+!run.sh
+!auto_clean.py
+!login.py
+!doctor.py
+!ssh_util.py
